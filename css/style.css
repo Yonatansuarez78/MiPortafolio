@@ -171,7 +171,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #BDBDBD;
+  background-color: #555252;
   margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #BDBDBD;
+  background-color: #555252;
   width: 100px;
   bottom: -12px;
 }
@@ -492,26 +492,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #BDBDBD;
+  color: #555252;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #BDBDBD;
+  background-color: #555252;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #BDBDBD;
+  color: #555252;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #BDBDBD;
+  color: #555252;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #BDBDBD;
+  color: #555252;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -1161,13 +1161,13 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #1e1e1e;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #BDBDBD;
+  background-color: #555252;
   color: #fff;
   border-color: #cde1f8;
 }
