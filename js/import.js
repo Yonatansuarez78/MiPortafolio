@@ -2,13 +2,12 @@ function myFunction() {
     // Get the value of the name input field
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
-    const subject = document.getElementById("subject").value;
     const message = document.getElementById("message").value;
 
 
 
     // Check if the name field is empty
-    if (name === "" || email === "" || subject === "" || message === "") {
+    if (name === "" || email === "" || message === "") {
         swal("Error", "Complete todos los campos", "error");
         return;
     }
@@ -30,7 +29,6 @@ function myFunction() {
                 // Limpiar los campos
                 document.getElementById("name").value = "";
                 document.getElementById("email").value = "";
-                document.getElementById("subject").value = "";
                 document.getElementById("message").value = "";
                 
             } else {

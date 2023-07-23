@@ -1298,4 +1298,14 @@ margin-top: -12px;
   }
 }
 
+#img-users{
+
+   width: auto;
+   height: auto;
+}
+
+#img-user{
+  cursor: no-drop;
+}
+
 
