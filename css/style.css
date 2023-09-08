@@ -1308,4 +1308,91 @@ margin-top: -12px;
   cursor: no-drop;
 }
 
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin: 6% auto 0;
+}
+.single-card {
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 15px;
+	box-shadow: 0 2px 20px rgba(185, 179, 179, 0.5);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+	background: #ffffff;
+	border-radius: 15px;
+	transition: all 0.8s ease-in-out;
+}
+.single-card:hover {
+	transform: translateY(-10px);
+}
+.img-area {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.img-area img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+.img-area:hover img {
+	transform: scale(1.1);
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(149, 164, 168, 0.452);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.single-card:hover .overlay {
+	opacity: 1;
+}
+.add-to-cart, .view-details {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	margin-bottom: 10px;
+}
+.add-to-cart:hover, .view-details:hover {
+	background-color: orangered;
+	color: #fff;
+	border: none;
+}
+.info {
+	padding: 10px;
+	text-align: center;
+	color: #000000b2;
+}
+.info h3 {
+	margin: 15px 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
 
