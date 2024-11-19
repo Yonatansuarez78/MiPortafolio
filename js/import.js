@@ -16,7 +16,6 @@ function confirmAndSubmit() {
       dangerMode: true,
     }).then((willSubmit) => {
       if (willSubmit) {
-        // Submit the form programmatically
         document.getElementById("contact-form").submit();
       } else {
         swal("Modifica o cambia tu respuesta!");
